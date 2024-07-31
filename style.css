@@ -1,0 +1,26 @@
+@import  url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+@import './css/header.css';
+@import './css/modal.css';
+@import './css/produtos.css';
+@import './css/animacoes.css';
+@import './css/alerta.css';
+@import './css/carrinho.css';
+@import './css/resposivo.css';
+
+body, h1, h2 , ul, li, p {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+}
+*{
+      box-sizing: border-box;
+}
+body{
+      background: linear-gradient(to right, #1a1a1a 30%, #fff 30%);
+      font-family: 'Noto Serif', serif;
+}
+#app{
+      padding: 80px 80px;;
+}
+
